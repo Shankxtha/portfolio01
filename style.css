@@ -1,0 +1,412 @@
+*
+{
+    font-family: poppins,sans-serif;
+}
+
+body
+{
+    color: white;
+    background-color: #081b29;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+ 
+.whole
+{
+    padding-left: 5%;
+    display: flex;
+    gap: 300px;
+    height: 630px;
+    margin-top: 80px;
+
+}
+
+.it2 img{
+    opacity: 0.8;
+    background-color: #081b29;
+    height: 625px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px #0280b2 ;
+} 
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav a
+{
+    color: white;
+    font-size: 20px  ;
+    font-weight: 600;
+}
+
+.nav a:hover
+ {
+    color: aquamarine;
+ }
+
+.nav
+{
+    background-color: rgb(2, 62, 75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex; 
+    width: 100%;
+    gap: 600px;
+    align-items: center;
+    font-size: 25px;
+    z-index: 99999;
+}
+
+.nav span
+{
+    text-shadow:
+    0 0 30px #00abf0,
+    0 0 60px #00abf0;
+    font-weight: bold;
+}
+
+ul
+{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.talk
+{
+    font-weight:bold;
+    letter-spacing: 1px;
+    display: flex;
+    border-radius: 5px;
+   background-color: #00abf0;
+}
+
+.talk a{
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.nav .talk:hover{
+    background-color: #1186b5;
+    color: black;
+}
+.talk a:hover{
+    color: white;
+}
+ 
+.main
+{
+    background-color: transparent;
+    height: 560px;
+    width: 550px;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.me{
+    width: 650px;
+}
+
+.me p{
+    line-height: 28px;
+}
+
+.me h1 span
+{
+    text-shadow:
+    1px 1px 2px #00abf0;
+   
+    color: blueviolet;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+h3{
+    color: lightskyblue;
+    font-size:  30px;
+    font-weight: 700px;
+}
+
+ p{
+    font-size: larger;
+}
+
+.hire{
+    background-color: transparent;
+    height: 60px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.hire a{
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 160px;
+    color: black;
+    background-color: #00abf0;
+    font-size: 20px;
+}
+
+
+.hire .pro1:hover{
+    background-color:#13a3db;
+    color: white;
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+.icon
+{
+    background-color: transparent;
+    width: 400px;
+    padding-left: 5%;
+    display: flex;
+    gap: 40px;
+}
+.icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    height: 45px ;
+    width: 45px;
+}
+
+.icon i:hover{
+    background-color: #00abf0;
+    transition: .5s;
+    color: black;
+}
+
+.whole2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.cv{
+    width: 700px;
+}
+
+.cv p{
+    line-height: 28px;
+}
+
+.image1  img
+{
+    border-radius: 20px;
+    height: 635px;
+}
+.image1{
+    width: 450px;
+}
+
+table{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mycv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00abf0;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.mycv:hover{
+    background-color:#13a3db;
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+    a{
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+}
+table td{
+    height: 40px;
+    width: 200px;
+    
+}
+
+.mycv a {
+    color: black;
+}
+span{
+    color: #00abf0;
+    font-weight:bolder ;
+}
+
+.whole3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ab{
+    display: flex;
+    gap: 10px;
+    
+}
+.a2{
+    background-color: #00abf0;
+    border-radius: 10px;
+    padding: 1px 5px;
+}
+.a1{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 1px 5px;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+}
+.image2 img{
+    border: 2px solid white;
+    height: 300px;
+    width: 400px;
+}
+
+.follow
+{
+    display: flex;
+    gap: 40px;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 110px;
+    border: 1px solid white;
+}
+
+.whole4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgg
+{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img1{
+    height: 400px;
+    width: 350px;
+}
+
+.img1 img{
+    width: inherit;
+}
+
+.whole4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.whole4 input{
+    background-color:transparent;
+    
+}
+
+.whole4 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    outline: white;
+}
+.in1 input{
+    height: 30px;
+    width: 1015px;
+    color: white;
+}
+
+.in2 input{
+    height: 30px;
+    width: 500px;
+    color: white;
+}
+
+.whole4 textarea{
+    color: white;
+    height: 100px;
+    width: 1015px;
+    background-color: transparent;
+}
+
+button{
+    background-color: transparent;
+    color: #00abf0;
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #00abf0;
+    color: white;
+
+}
+
+
+.whole5 p{
+   height: 30px;
+   width: 1510px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #038cc3;
+   margin: 0;
+   font-size: medium;
+}
+
